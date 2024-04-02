@@ -1,10 +1,19 @@
+import ProjectCard from "../../components/Projectcard";
+import holiday from '../../assets/img/holiday2.png'
+import workday from "../../assets/img/Scheduler.png"
+import weather from "../../assets/img/weather.png"
+import workout from "../../assets/img/login_project2.png"
+import notes from "../../assets/img/Notes.png"
+import passgen from "../../assets/img/Passgen1.png"
+
+
 const Projects = () => {
     const myProjects = [
         {
             id: 1,
             name: 'Holiday Music Search Engine',
             description: 'A search engine for holiday music that allows users to search for songs by title, artist, or genre. Users can also create an account to save their favorite songs.',  
-            image: './images/holiday-music-search-engine.png',
+            image: holiday,
             link: 'https://ruthiepina.github.io/Project-1',
             gitLink: 'https://github.com/ruthiepina/Project-1',
         },
@@ -12,7 +21,7 @@ const Projects = () => {
             id: 2,
             name: 'Workday Scheduler',
             description: 'A simple calendar application that allows a user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
-            image: './images/workday-scheduler.png',
+            image: workday,
             link: 'https://tnielson78.github.io/Workday-scheduler/',
             gitLink: 'https://github.com/TNielson78/Workday-scheduler',
         },
@@ -20,7 +29,7 @@ const Projects = () => {
             id: 3,
             name: 'Weather Dashboard',
             description: 'A weather dashboard that allows a user to search for a city and view the current weather conditions as well as the 5-day forecast. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
-            image: './images/weather-dashboard.png',
+            image: weather,
             link: 'https://tnielson78.github.io/Weather-dashboard/',
             gitLink: 'https://github.com/TNielson78/Weather-dashboard',
         },
@@ -28,7 +37,7 @@ const Projects = () => {
             id: 4,
             name: 'Workout Tracker',
             description: 'A workout tracker that allows a user to view, create, and track daily workouts. The user can log multiple exercises in a workout on a given day and track the name, type, weight, sets, reps, and duration of the exercise.',
-            image: './images/login_project.png',
+            image: workout,
             link: 'https://workout-fitness-tracker-ff2f5d2f6a1e.herokuapp.com/login',
             gitLink: 'https://github.com/hyrumsdolan/fitness-tracker-MVC',
         },
@@ -36,7 +45,7 @@ const Projects = () => {
             id: 5,
             name: 'Note Taker',
             description: 'An application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.',
-            image: './images/note-taker.png',
+            image: notes,
             link: 'https://note-taker-tnielson78.herokuapp.com/',
             gitLink: 'https://github.com/TNielson78/Note_taker',
         },
@@ -44,7 +53,7 @@ const Projects = () => {
             id: 6,
             name: 'Password Generator',
             description: 'A password generator that allows a user to create a random password based on criteria they’ve selected. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.',
-            image: './images/password-generator.png',
+            image: passgen,
             link: 'https://tnielson78.github.io/Password-Generator/',
             gitLink: 'https://github.com/TNielson78/Password-Generator',
         }
@@ -54,6 +63,9 @@ const Projects = () => {
             <h2>
                 Projects Page
             </h2>
+            <div>
+                {myProjects.map((project)=>(<ProjectCard key={project.id} project={project}/>))}
+            </div>
         </main>
     )
 };
