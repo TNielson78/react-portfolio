@@ -5,6 +5,7 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
+import Resume from './pages/Resume'
 import Contacts from './pages/Contacts'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -23,6 +24,9 @@ function App() {
     }
     if (currentPage === 'Projects') {
       return <Projects />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contacts />;
   };
