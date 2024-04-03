@@ -1,10 +1,10 @@
 import ProjectCard from "../../components/Projectcard";
-import holiday from '../../assets/img/holiday2.png';
-import workday from "../../assets/img/Scheduler.png";
-import weather from "../../assets/img/weather.png";
-import workout from "../../assets/img/login_project2.png";
-import notes from "../../assets/img/Notes.png";
-import passgen from "../../assets/img/Passgen1.png";
+import holiday from "./assets/img/holiday2.png";
+import workday from "./assets/img/Scheduler.png";
+import weather from "./assets/img/weather.png";
+import workout from "./assets/img/login_project2.png";
+import notes from "./assets/img/Notes.png";
+import passgen from "./assets/img/Passgen1.png";
 import {Row, Col} from "react-bootstrap"
 
 
