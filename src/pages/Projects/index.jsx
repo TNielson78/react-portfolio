@@ -5,6 +5,7 @@ import weather from "../../assets/img/weather.png"
 import workout from "../../assets/img/login_project2.png"
 import notes from "../../assets/img/Notes.png"
 import passgen from "../../assets/img/Passgen1.png"
+import {Row, Col} from "react-bootstrap"
 
 
 const Projects = () => {
@@ -63,9 +64,9 @@ const Projects = () => {
             <h2>
                 Projects Page
             </h2>
-            <div>
+            <Row>
                 {myProjects.map((project)=>(<ProjectCard key={project.id} project={project}/>))}
-            </div>
+            </Row>
         </main>
     )
 };

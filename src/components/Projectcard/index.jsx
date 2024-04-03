@@ -1,9 +1,10 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CardHeader } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 const ProjectCard =({project})=>{
     return (
-        <Card>
+        <Col sm={12}md={6}lg={4}>
+        <Card className="mb-3">
         <Card.Header>
             <Card.Title>
                 {project.name}
@@ -24,6 +25,7 @@ const ProjectCard =({project})=>{
             </div>
         </Card.Body>
         </Card>
+        </Col>
     )
 }
 

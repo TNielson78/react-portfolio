@@ -7,6 +7,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* We are passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
+      <main className="mx-3 main-content">{renderPage()}</main>
+      <Footer/>
     </div>
   );
 }

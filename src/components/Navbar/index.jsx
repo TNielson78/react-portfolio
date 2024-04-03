@@ -1,8 +1,8 @@
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+import "./style.css"
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav nav-tabs">
+      <nav>
+      <ul className="nav">
         <li className="nav-item">
           <a
             href="#home"
@@ -45,6 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </nav>
     );
   }
   
