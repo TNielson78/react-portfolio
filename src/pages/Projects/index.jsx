@@ -5,6 +5,7 @@ import Weather from "../../assets/img/weather.png";
 import Workout from "../../assets/img/login_project2.png";
 import Notes from "../../assets/img/Notes.png";
 import Passgen from "../../assets/img/Passgen1.png";
+import Peterson from "../../assets/img/Peterson.png";
 import {Row, Col} from "react-bootstrap"
 
 
@@ -57,6 +58,14 @@ const Projects = () => {
             image: Passgen,
             link: 'https://tnielson78.github.io/Password-Generator/',
             gitLink: 'https://github.com/TNielson78/Password-Generator',
+        },
+        {
+            id: 7,
+            name: 'Peterson Plumbing',
+            description: 'Plumbing website for Peterson Plumbing.',
+            image:Peterson ,
+            link: 'https://plumbing-store-front.onrender.com/Users',
+            gitLink: 'https://github.com/cosmonaut1917/Plumbing_store_front',
         }
     ];
     return (
