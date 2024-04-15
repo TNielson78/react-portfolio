@@ -64,7 +64,7 @@ const Projects = () => {
             name: 'Peterson Plumbing',
             description: 'Plumbing website for Peterson Plumbing.',
             image:Peterson ,
-            link: 'https://plumbing-store-front.onrender.com/Users',
+            link: 'https://plumbing-store-front-1.onrender.com',
             gitLink: 'https://github.com/cosmonaut1917/Plumbing_store_front',
         }
     ];
