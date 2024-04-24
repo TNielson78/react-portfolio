@@ -1,5 +1,5 @@
-import resume from '../../assets/resume/Resume-TRAVIS-NIELSON.pdf';
-import image from '../../assets/img/Resume_screenshot.png';
+import resume from '../../assets/resume/TnielsonResumepdf.pdf';
+import image from '../../assets/img/resumescreenshot.png';
 const Resume = () => {
     return(
         <main style={{display:"flex", flexDirection:"column",}}>

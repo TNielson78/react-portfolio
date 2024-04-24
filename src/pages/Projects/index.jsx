@@ -48,7 +48,7 @@ const Projects = () => {
             name: 'Note Taker',
             description: 'An application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.',
             image: Notes,
-            link: 'https://note-taker-tnielson78.herokuapp.com/',
+            link: 'https://note-taker-sbzr.onrender.com',
             gitLink: 'https://github.com/TNielson78/Note_taker',
         },
         {
