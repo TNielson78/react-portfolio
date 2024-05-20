@@ -65,7 +65,7 @@ const About = () => {
                     I am a full stack web developer with a background in business and a passion for technology. I have a strong foundation in HTML, CSS, and JavaScript. I have experience with MySQL, MongoDB, and GraphQL. I am a quick learner and a problem solver. I am looking for a full-time position in web development. 
                 </p>
                 <p>
-                    I live in the Utah Valley area with my wife, two dogs and two cats. I enjoy hiking, camping, and spending time with my family. I am a lifelong learner and I am always looking for ways to improve my skills. I am excited to continue to grow as a developer and gain experience working on new projects.
+                    I live in the North Utah County area with my wife, two dogs and two cats. I enjoy hiking, camping, and spending time with my family. I am a lifelong learner and I am always looking for ways to improve my skills. I am excited to continue to grow as a developer and gain experience working on new projects.
                    </p>
                 </div>
             </Col>
