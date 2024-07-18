@@ -1,4 +1,4 @@
-import resume from '../../assets/resume/Tnielsonresumepdf.pdf';
+import resume from '../../assets/resume/Travis Nielson Resume1.pdf';
 import image from '../../assets/img/resumescreenshot.png';
 const Resume = () => {
     return(
